@@ -56,3 +56,17 @@ nav:
             - '[nslookup]域名解析': network/advanced/nslookup-域名解析.md
             - '[netstat]端口查询': network/advanced/netstat-端口查询.md
             - '[nc]远程端口查询': network/advanced/nc-远程端口查询.md
+    - 连接:
+      - 内网穿透:
+        - 引言: penetration/index.md
+        - '[路由器]虚拟服务器': penetration/路由器-虚拟服务器.md
+        - 花生壳: penetration/花生壳.md
+        - n2n: 
+          - n2n原理: penetration/n2n/n2n原理.md
+          - n2n实现: penetration/n2n/n2n实现.md 
+        - Ngrok:
+          - 引言: penetration/ngrok/index.md
+          - Ngrok实现: penetration/ngrok/ngrok实现.md
+          - TCP和HTTP连接配置: penetration/ngrok/tcp-http-连接配置.md
+          - 'Ubuntu Service实现': penetration/ngrok/ubuntu-service.md
+          - Docker实现: penetration/ngrok/ngrok-docker.md
