@@ -38,3 +38,11 @@ extra_javascript:
 # 导航
 nav:
     - Home: index.md
+    - 网络:
+      - 基础:
+        - IP地址: network/basic/ip地址.md
+        - '路由器、交换机、集线器、中继器': network/basic/路由器-交换机-集线器-中继器.md
+        - '局域网、广域网、互联网和私有专用网': network/basic/局域网-广域网-互联网-私有专用网.md
+        - 网络体系结构: network/basic/网络体系结构.md
+        - URL构成: network/basic/URL构成.md
+        - DNS解析过程: network/basic/DNS解析过程.md
