@@ -1,13 +1,7 @@
 
 # [nslookup]域名解析
 
-参考：
-
-[nslookup](https://en.wikipedia.org/wiki/Nslookup)
-
-[nslookup(1) - Linux man page](https://linux.die.net/man/1/nslookup)
-
-`nslookup`是一个域名解析工具，用于查询域名对应的`IP`地址
+[nslookup](https://en.wikipedia.org/wiki/Nslookup)是一个域名解析工具，用于查询域名对应的`IP`地址
 
 有两种使用方式
 
@@ -61,3 +55,7 @@ Non-authoritative answer:
 Name:	www.zhujian.tech
 Address: 148.70.133.9
 ```
+
+## 相关阅读
+
+* [nslookup(1) - Linux man page](https://linux.die.net/man/1/nslookup)

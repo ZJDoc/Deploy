@@ -39,6 +39,7 @@ extra_javascript:
 nav:
     - Home: index.md
     - 网络:
+      - 引言: network/index.md
       - 基础:
         - IP地址: network/basic/ip地址.md
         - '路由器、交换机、集线器、中继器': network/basic/路由器-交换机-集线器-中继器.md
@@ -46,3 +47,12 @@ nav:
         - 网络体系结构: network/basic/网络体系结构.md
         - URL构成: network/basic/URL构成.md
         - DNS解析过程: network/basic/DNS解析过程.md
+      - 进阶:
+            - '[namesilo][dnspod]域名申请和解析': network/advanced/namesilo-dnspod-域名申请和解析.md
+            - '[阿里云][域名解析]URL转发': network/advanced/阿里云-域名解析-URL转发.md
+            - '[Ubuntu 18.04]wifi信息查询': network/advanced/ubuntu-18_04-wifi信息查询.md
+            - '[Ubuntu 18.04][resolv.conf]公共DNS设置': network/advanced/ubuntu-18_04-公共DNS设置.md
+            - '[Docker][Ubuntu 18.04]网络工具安装': network/advanced/docker-ubuntu-18_04-网络工具安装.md
+            - '[nslookup]域名解析': network/advanced/nslookup-域名解析.md
+            - '[netstat]端口查询': network/advanced/netstat-端口查询.md
+            - '[nc]远程端口查询': network/advanced/nc-远程端口查询.md
