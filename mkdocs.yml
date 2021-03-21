@@ -89,3 +89,18 @@ nav:
         - 关于Tomcat: tomcat/关于Tomcat.md
         - '[Ubuntu 16.02]Tomcat9安装': tomcat/ubuntu-16_02-tomcat9安装.md
         - 非root用户运行: tomcat/非root用户运行.md
+      - Nginx:
+        - 入门:
+          - 安装: nginx/base/安装.md
+          - 测试: nginx/base/测试.md
+          - 配置: nginx/base/配置.md
+          - 中文乱码: nginx/base/中文乱码.md
+          - 托管网站: nginx/base/托管网站.md
+        - 进阶:
+          - '[阿里云]配置HTTPs': nginx/advanced/阿里云-配置https.md
+          - '[腾讯云]配置HTTPs': nginx/advanced/腾讯云-配置https.md
+          - 多域名配置同一端口: nginx/advanced/多域名配置同一端口.md
+          - 反向代理: nginx/advanced/反向代理.md
+          - '[译]NGINX Reverse Proxy': nginx/advanced/译-nginx-reverse-proxy.md
+          - '[Docker]Nginx安装': nginx/advanced/docker-nginx.md
+          - 文件共享服务: nginx/advanced/文件共享服务.md
