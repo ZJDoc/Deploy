@@ -70,3 +70,17 @@ nav:
           - TCP和HTTP连接配置: penetration/ngrok/tcp-http-连接配置.md
           - 'Ubuntu Service实现': penetration/ngrok/ubuntu-service.md
           - Docker实现: penetration/ngrok/ngrok-docker.md
+      - SSH:
+        - 入门:
+            - http和ssh协议: ssh/base/http和ssh协议.md
+            - '[SSH]远程连接': ssh/base/ssh-远程连接.md
+            - '[SSH]常用工具': ssh/base/ssh-常用工具.md
+            - '[SSH]生成密钥': ssh/base/ssh-生成密钥.md
+            - '[SSH]客户端配置文件': ssh/base/ssh-客户端配置文件.md
+        - 进阶:
+            - '禁用公钥检查': ssh/advanced/ssh-禁用公钥检查.md
+            - 复制公钥到远程服务器: ssh/advanced/复制公钥到远程服务器.md
+            - 添加私钥缓存: ssh/advanced/添加私钥缓存.md
+            - '[ssh-agent]代理设置': ssh/advanced/ssh-agent-代理设置.md
+            - '[SSH -L]端口转发': ssh/advanced/端口转发.md
+        - ERROR: ssh/error.md
