@@ -104,3 +104,5 @@ nav:
           - '[译]NGINX Reverse Proxy': nginx/advanced/译-nginx-reverse-proxy.md
           - '[Docker]Nginx安装': nginx/advanced/docker-nginx.md
           - 文件共享服务: nginx/advanced/文件共享服务.md
+    - 持续集成:
+      - Jenkins: ci/jenkins.md
