@@ -1,8 +1,6 @@
 # Deploy
 
-* 网络
-  * 基本概念
-  * 相关操作
+* 网络基础
 * 远程连接
     * 花生壳
     * `n2n`
@@ -11,8 +9,8 @@
 * `Web`服务器
     * `Tomcat`
     * `Nginx`
-* 集成
+* 持续集成
     * `Jenkins`
-* 容器
+* 容器和编排工具
     * `Docker`
     * `Docker-Compose`
