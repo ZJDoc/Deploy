@@ -145,13 +145,13 @@ nav:
             - ARG: docker/dockerfile/ARG.md
             - SHELL: docker/dockerfile/SHELL.md
         - 数据存储:
-            - '[译]在Docker中管理数据': './docker/storage/[译]在Docker中管理数据.md'
-            - '[docker volume]创建和管理卷': './docker/storage/[docker volume]创建和管理卷.md'
-            - '[volume][bind mount]标识符-v和--mount解析': './docker/storage/[volume][bind mount]标识符-v和--mount解析.md'
-            - '[volume][bind mount]bind propagation设置': './docker/storage/[volume][bind mount]bind propagation设置.md'
-            - '使用卷管理数据': './docker/storage/使用卷管理数据.md'
-            - '绑定挂载': './docker/storage/绑定挂载.md'
-            - '[gosu]绑定挂载最佳实践': './docker/storage/[gosu]绑定挂载最佳实践.md'
+            - '[译]在Docker中管理数据': docker/storage/译-在Docker中管理数据.md
+            - 挂载标识符解析: docker/storage/挂载标识符解析.md
+            - 使用卷管理数据: docker/storage/使用卷管理数据.md
+            - 创建和管理卷: docker/storage/创建和管理卷.md
+            - 绑定挂载: docker/storage/绑定挂载.md
+            - 'bind propagation设置': docker/storage/bind-propagation设置.md
+            - '[gosu]绑定挂载最佳实践': docker/storage/gosu-绑定挂载最佳实践.md
         - GUI镜像构建:
             - '[Docker][Ubuntu]Libreoffice运行': './docker/gui/[Docker][Ubuntu]Libreoffice运行.md'
             - '[Docker][Ubuntu]WPS运行': './docker/gui/[Docker][Ubuntu]WPS运行.md'
