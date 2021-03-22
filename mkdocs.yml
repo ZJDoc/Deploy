@@ -130,20 +130,20 @@ nav:
             - '[Ubuntu]nvidia-docker安装': docker/advanced/ubuntu-nvidia-docker安装.md
             - '[alpine]源配置': docker/advanced/alpine-源配置.md
         - Dockerfile:
-            - 'Dockerfile编写': './docker/dockerfile/Dockerfile编写.md'
-            - 'FROM': './docker/dockerfile/FROM.md'
-            - 'CMD': './docker/dockerfile/CMD.md'
-            - 'RUN': './docker/dockerfile/RUN.md'
-            - 'LABEL': './docker/dockerfile/LABEL.md'
-            - 'EXPOSE': './docker/dockerfile/EXPOSE.md'
-            - 'ENV': './docker/dockerfile/ENV.md'
-            - 'ADD和COPY': './docker/dockerfile/ADD和COPY.md'
-            - 'ENTRYPOINT': './docker/dockerfile/ENTRYPOINT.md'
-            - 'WORKDIR': './docker/dockerfile/WORKDIR.md'
-            - 'ARG': './docker/dockerfile/ARG.md'
-            - 'SHELL': './docker/dockerfile/SHELL.md'
+            - Dockerfile编写: docker/dockerfile/dockerfile编写.md
             - '[译]Dockerfile编写最佳实践': './docker/dockerfile/[译]Dockerfile编写最佳实践.md'
             - '多阶段构建': './docker/dockerfile/多阶段构建.md'
+            - FROM: docker/dockerfile/FROM.md
+            - CMD: docker/dockerfile/CMD.md
+            - RUN: docker/dockerfile/RUN.md
+            - LABEL: docker/dockerfile/LABEL.md
+            - EXPOSE: docker/dockerfile/EXPOSE.md
+            - ENV: docker/dockerfile/ENV.md
+            - ADD和COPY: docker/dockerfile/ADD和COPY.md
+            - ENTRYPOINT: docker/dockerfile/ENTRYPOINT.md
+            - WORKDIR: docker/dockerfile/WORKDIR.md
+            - ARG: docker/dockerfile/ARG.md
+            - SHELL: docker/dockerfile/SHELL.md
         - 数据存储:
             - '[译]在Docker中管理数据': './docker/storage/[译]在Docker中管理数据.md'
             - '[docker volume]创建和管理卷': './docker/storage/[docker volume]创建和管理卷.md'
