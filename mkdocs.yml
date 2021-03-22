@@ -109,25 +109,26 @@ nav:
     - 容器和编排工具:
       - docker:
         - 入门: 
-            - '[译]docker概述': docker/basic/译-docker概述.md
-            - docker定位: docker/basic/docker定位.md
-            - 安装: docker/basic/安装.md
-            - '[Aliyun]镜像加速': docker/basic/aliyun-镜像加速.md
+            - '[译]Docker概述': docker/basic/译-docker概述.md
+            - Docker定位: docker/basic/docker定位.md
+            - 镜像和容器: docker/basic/镜像和容器.md
+            - Docker安装: docker/basic/docker安装.md
             - 可选设置: docker/basic/可选设置.md
-            - '[Ubuntu 18.04]中文环境配置': docker/basic/ubuntu-18_04-中文环境配置.md
-            - 创建最简单的镜像: docker/basic/hello-world.md
-            - 'Docker Hub使用': docker/basic/docker-hub使用.md
-            - 'Docker启动设置': docker/basic/Docker启动设置.md
+            - '守护进程管理': docker/basic/守护进程管理.md
             - 保存容器为镜像: docker/basic/保存容器为镜像.md
-            - '[Docker]DNS设置': docker/basic/docker-DNS设置.md
+            - 镜像迁移: docker/basic/镜像迁移.md
+            - 'Docker Hub使用': docker/basic/docker-hub使用.md
+            - 搜索镜像: docker/basic/搜索镜像.md
         - 进阶:
-            - '[译]Docker开发最佳实践':  docker/advanced/译-Docker开发最佳实践.md
+            - '[Docker]DNS设置': docker/advanced/docker-DNS设置.md
+            - '[Aliyun]镜像加速': docker/advanced/aliyun-镜像加速.md
+            - 创建最简单的镜像: docker/advanced/hello-world.md
             - '编写.dockerignore': docker/advanced/dockerignore.md
-            - 搜索镜像: docker/advanced/搜索镜像.md
-            - '[Docker][SSH]远程登录Ubuntu': docker/advanced/docker-ssh-远程登录Ubuntu.md
+            - '[译]Docker开发最佳实践':  docker/advanced/译-Docker开发最佳实践.md
+            - '[Ubuntu 18.04]中文环境配置': docker/advanced/ubuntu-18_04-中文环境配置.md
+            - '[Docker][SSH]远程登录': docker/advanced/docker-ssh-远程登录.md
             - '[Ubuntu]nvidia-docker安装': docker/advanced/ubuntu-nvidia-docker安装.md
             - '[alpine]源配置': docker/advanced/alpine-源配置.md
-            - 镜像迁移: docker/advanced/镜像迁移.md
         - Dockerfile:
             - 'Dockerfile编写': './docker/dockerfile/Dockerfile编写.md'
             - 'FROM': './docker/dockerfile/FROM.md'

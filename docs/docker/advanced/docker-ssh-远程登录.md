@@ -1,5 +1,5 @@
 
-# [Docker][SSH]远程登录Ubuntu
+# [Docker][SSH]远程登录
 
 通过`docker`启动`Ubuntu`镜像，通过`ssh`进行远程登录
 

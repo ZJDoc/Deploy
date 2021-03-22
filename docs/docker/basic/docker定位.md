@@ -1,7 +1,7 @@
 
-# docker定位
+# Docker定位
 
-理解`docker`工具以及容器、镜像等重要组成的概念
+理解`Docker`工具以及容器、镜像等重要组成的概念
 
 ## Docker概念
 
