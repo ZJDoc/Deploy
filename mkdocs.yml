@@ -106,3 +106,72 @@ nav:
           - 文件共享服务: nginx/advanced/文件共享服务.md
     - 持续集成:
       - Jenkins: ci/jenkins.md
+    - 容器和编排工具:
+      - docker:
+        - 入门: 
+            - '[译]docker概述': docker/basic/译-docker概述.md
+            - docker定位: docker/basic/docker定位.md
+            - 安装: docker/basic/安装.md
+            - '[Aliyun]镜像加速': docker/basic/aliyun-镜像加速.md
+            - 可选设置: docker/basic/可选设置.md
+            - '[Ubuntu 18.04]中文环境配置': docker/basic/ubuntu-18_04-中文环境配置.md
+            - 创建最简单的镜像: docker/basic/hello-world.md
+            - 'Docker Hub使用': docker/basic/docker-hub使用.md
+            - 'Docker启动设置': docker/basic/Docker启动设置.md
+            - 保存容器为镜像: docker/basic/保存容器为镜像.md
+            - '[Docker]DNS设置': docker/basic/docker-DNS设置.md
+        - 进阶:
+            - '[译]Docker开发最佳实践':  './docker/advanced/[译]Docker开发最佳实践.md'
+            - '编写.dockerignore': './docker/advanced/编写.dockerignore.md'
+            - '[docker search]搜索镜像': './docker/advanced/[docker search]搜索镜像.md'
+            - '[Docker][SSH]远程登录Ubuntu': './docker/advanced/[Docker][SSH]远程登录Ubuntu.md'
+            - '[Ubuntu]nvidia-docker安装': './docker/advanced/[Ubuntu]nvidia-docker安装.md'
+            - '[alpine]源配置': './docker/advanced/[alpine]源配置.md'
+            - '镜像迁移': './docker/advanced/镜像迁移.md'
+        - Dockerfile:
+            - 'Dockerfile编写': './docker/dockerfile/Dockerfile编写.md'
+            - 'FROM': './docker/dockerfile/FROM.md'
+            - 'CMD': './docker/dockerfile/CMD.md'
+            - 'RUN': './docker/dockerfile/RUN.md'
+            - 'LABEL': './docker/dockerfile/LABEL.md'
+            - 'EXPOSE': './docker/dockerfile/EXPOSE.md'
+            - 'ENV': './docker/dockerfile/ENV.md'
+            - 'ADD和COPY': './docker/dockerfile/ADD和COPY.md'
+            - 'ENTRYPOINT': './docker/dockerfile/ENTRYPOINT.md'
+            - 'WORKDIR': './docker/dockerfile/WORKDIR.md'
+            - 'ARG': './docker/dockerfile/ARG.md'
+            - 'SHELL': './docker/dockerfile/SHELL.md'
+            - '[译]Dockerfile编写最佳实践': './docker/dockerfile/[译]Dockerfile编写最佳实践.md'
+            - '多阶段构建': './docker/dockerfile/多阶段构建.md'
+        - 数据存储:
+            - '[译]在Docker中管理数据': './docker/storage/[译]在Docker中管理数据.md'
+            - '[docker volume]创建和管理卷': './docker/storage/[docker volume]创建和管理卷.md'
+            - '[volume][bind mount]标识符-v和--mount解析': './docker/storage/[volume][bind mount]标识符-v和--mount解析.md'
+            - '[volume][bind mount]bind propagation设置': './docker/storage/[volume][bind mount]bind propagation设置.md'
+            - '使用卷管理数据': './docker/storage/使用卷管理数据.md'
+            - '绑定挂载': './docker/storage/绑定挂载.md'
+            - '[gosu]绑定挂载最佳实践': './docker/storage/[gosu]绑定挂载最佳实践.md'
+        - GUI镜像构建:
+            - '[Docker][Ubuntu]Libreoffice运行': './docker/gui/[Docker][Ubuntu]Libreoffice运行.md'
+            - '[Docker][Ubuntu]WPS运行': './docker/gui/[Docker][Ubuntu]WPS运行.md'
+            - '[Docker][Ubuntu]vscode运行': './docker/gui/[Docker][Ubuntu]vscode运行.md'
+            - '[Docker][Ubuntu 18.04]deepin-wine制作': './docker/gui/[Docker][Ubuntu 18.04]deepin-wine制作.md'
+            - '[Docker][deepin-wine]微信运行': './docker/gui/[Docker][deepin-wine]微信运行.md'
+            - '[Docker][deepin-wine]QQ运行': './docker/gui/[Docker][deepin-wine]QQ运行.md'
+            - '[Docker][deepin-wine]TIM运行': './docker/gui/[Docker][deepin-wine]TIM运行.md'
+            - '[Docker][deepin-wine]迅雷运行': './docker/gui/[Docker][deepin-wine]迅雷运行.md'
+            - '[Docker][Ubuntu]Edraw安装': './docker/gui/[Docker][Ubuntu]Edraw安装.md'
+            - '[Docker]GUI最佳实践': './docker/gui/[Docker]GUI最佳实践.md'
+        - '常见问题':
+            - 'service启动docker失效': './docker/faq/service启动docker失效.md'
+            - 'docker build运行apt-get update失败': './docker/faq/docker build运行apt-get update失败.md'
+            - '安装git出错': './docker/faq/安装git出错.md'
+            - '安装g++出错': './docker/faq/安装g++出错.md'
+      - docker-compose:
+        - '[译]Docker Compose概述': './docker/compose/[译]Docker Compose概述.md'
+        - 'Compose安装': './docker/compose/Compose安装.md'
+        - 'Compose版本依赖': './docker/compose/Compose版本依赖.md'
+        - 'Compose文件格式概述': './docker/compose/Compose文件格式概述.md'
+        - 'Compose文件格式 - Service设置': './docker/compose/Compose文件格式 - Service设置.md'
+        - 'Compose文件格式 - 存储设置': './docker/compose/Compose文件格式 - 存储设置.md'
+        - '使用docker-compose还是docker run': './docker/compose/使用docker-compose还是docker run.md'
