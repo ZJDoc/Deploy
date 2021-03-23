@@ -152,27 +152,16 @@ nav:
             - 绑定挂载: docker/storage/绑定挂载.md
             - 'bind propagation设置': docker/storage/bind-propagation设置.md
             - '[gosu]绑定挂载最佳实践': docker/storage/gosu-绑定挂载最佳实践.md
-        - GUI镜像构建:
-            - '[Docker][Ubuntu]Libreoffice运行': './docker/gui/[Docker][Ubuntu]Libreoffice运行.md'
-            - '[Docker][Ubuntu]WPS运行': './docker/gui/[Docker][Ubuntu]WPS运行.md'
-            - '[Docker][Ubuntu]vscode运行': './docker/gui/[Docker][Ubuntu]vscode运行.md'
-            - '[Docker][Ubuntu 18.04]deepin-wine制作': './docker/gui/[Docker][Ubuntu 18.04]deepin-wine制作.md'
-            - '[Docker][deepin-wine]微信运行': './docker/gui/[Docker][deepin-wine]微信运行.md'
-            - '[Docker][deepin-wine]QQ运行': './docker/gui/[Docker][deepin-wine]QQ运行.md'
-            - '[Docker][deepin-wine]TIM运行': './docker/gui/[Docker][deepin-wine]TIM运行.md'
-            - '[Docker][deepin-wine]迅雷运行': './docker/gui/[Docker][deepin-wine]迅雷运行.md'
-            - '[Docker][Ubuntu]Edraw安装': './docker/gui/[Docker][Ubuntu]Edraw安装.md'
-            - '[Docker]GUI最佳实践': './docker/gui/[Docker]GUI最佳实践.md'
-        - '常见问题':
-            - 'service启动docker失效': './docker/faq/service启动docker失效.md'
-            - 'docker build运行apt-get update失败': './docker/faq/docker build运行apt-get update失败.md'
-            - '安装git出错': './docker/faq/安装git出错.md'
-            - '安装g++出错': './docker/faq/安装g++出错.md'
+        # - GUI镜像构建:
+        #     - index: docker/gui/index.md
+        #     - WPS: docker/gui/wps.md
+        #     - '[Docker]GUI最佳实践': docker/gui/最佳实践.md
+        - ERROR: docker/error.md
       - docker-compose:
-        - '[译]Docker Compose概述': './docker/compose/[译]Docker Compose概述.md'
-        - 'Compose安装': './docker/compose/Compose安装.md'
-        - 'Compose版本依赖': './docker/compose/Compose版本依赖.md'
-        - 'Compose文件格式概述': './docker/compose/Compose文件格式概述.md'
-        - 'Compose文件格式 - Service设置': './docker/compose/Compose文件格式 - Service设置.md'
-        - 'Compose文件格式 - 存储设置': './docker/compose/Compose文件格式 - 存储设置.md'
-        - '使用docker-compose还是docker run': './docker/compose/使用docker-compose还是docker run.md'
+        - '[译]Docker Compose概述': compose/译-docker-compose概述.md
+        - Compose安装: compose/compose安装.md
+        - 版本依赖: compose/版本依赖.md
+        - 文件格式概述: compose/文件格式概述.md
+        - '文件格式 - Service设置': compose/文件格式-service设置.md
+        - '文件格式 - 存储设置': compose/文件格式-存储设置.md
+        - '使用docker-compose还是docker run': compose/docker-compose-docker-run.md
