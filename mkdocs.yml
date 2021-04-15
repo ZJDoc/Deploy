@@ -83,7 +83,7 @@ nav:
             - 添加私钥缓存: ssh/advanced/添加私钥缓存.md
             - '[ssh-agent]代理设置': ssh/advanced/ssh-agent-代理设置.md
             - '[SSH -L]端口转发': ssh/advanced/端口转发.md
-        - ERROR: ssh/error.md
+        - 问题解答: ssh/troubleshooting.md
     - Web服务器:
       - Tomcat:
         - 关于Tomcat: tomcat/关于Tomcat.md
@@ -157,7 +157,7 @@ nav:
         #     - index: docker/gui/index.md
         #     - WPS: docker/gui/wps.md
         #     - '[Docker]GUI最佳实践': docker/gui/最佳实践.md
-        - ERROR: docker/error.md
+        - 问题解答: docker/troubleshooting.md
       - docker-compose:
         - '[译]Docker Compose概述': compose/译-docker-compose概述.md
         - Compose安装: compose/compose安装.md
