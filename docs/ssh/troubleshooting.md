@@ -62,7 +62,7 @@
 
 其解决方案是通过定时发送心跳响应，保证客户端和服务器之间的连接
 
-### 修改客户端
+* 修改客户端
 
 在客户端上修改文件`/etc/ssh/ssh_config`，添加如下内容：
 
@@ -74,7 +74,7 @@ ServerAliveCountMax 999
 
 每隔`20s`向服务器发送一次心跳；若超过`999`次请求都没有发送成功，则主动断开与服务器端的连接
 
-### 修改服务端
+* 修改服务端
 
 在服务器上修改文件`/etc/ssh/sshd_config`，添加如下内容：
 
@@ -86,7 +86,7 @@ ClientAliveCountMax 10
 
 每隔`30s`向客户端发送一次心跳；若超过`10`次请求都没有发送成功，则主动断开与客户端的连接
 
-### 更新
+* 更新
 
 可同时修复上述两项配置文件，完成后重启`ssh`服务
 
@@ -130,13 +130,13 @@ $ ssh-keygen -f "/home/zj/.ssh/known_hosts" -R 207.xxx.xx.97
     Connection to 132.232.142.219 closed by remote host.
     Connection to 132.232.142.219 closed.
 
-### 解决
+* 解决
 
 先到控制台的云服务器页面，选择左侧的`SSH`密钥选项，删除之前设置的密钥
 
 然后关闭实例，重新设置密钥，输入本地的公钥内容，再次启动实例后就能够登录了
 
-### 调试
+* 调试
 
 使用参数`-v`能够打印出登录进度的调试信息
 
@@ -208,7 +208,7 @@ $ ssh-keygen -f "/home/zj/.ssh/known_hosts" -R 207.xxx.xx.97
     $ cat /etc/ssh/sshd_config  | grep MaxAuth
     #MaxAuthTries 6
 
-### 配置
+* 配置
 
 比如修改`ssh`服务端配置文件`/etc/ssh/sshd_config`，设置认证次数为`100`次，然后重启服务端即可
 
@@ -248,7 +248,7 @@ Hi zjZSTU! You've successfully authenticated, but GitHub does not provide shell 
 
 ## 问题七：Bad owner or permissions on .ssh config
 
-### 问题复现
+* 问题复现
 
 ```
 $ git push origin dev 
@@ -259,7 +259,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-### 问题解决
+* 问题解决
 
 参考：[Bad owner or permissions on .ssh/config的解决](https://blog.csdn.net/zcc_heu/article/details/79017606)
 
@@ -319,7 +319,7 @@ $ sudo apt install openssh-server
 
 ## 问题九：Permission denied (publickey)
 
-### 问题描述
+* 问题描述
 
 使用`Docker Jenkins`，在本地生成私钥，把公钥放置到远程，还是出现了权限错误：
 
@@ -331,17 +331,17 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 ```
 
-### 解决一
+* 解决一
 
 参考[[ssh-add]添加私钥缓存](./[ssh-add]添加私钥缓存.md)和[[ssh-agent]代理设置]([ssh-agent]代理设置.md)，使用工具`ssh-agent`设置代理即可
 
-### 解决二
+* 解决二
 
 设置私钥文件为`600`权限（**很重要!!!**）
 
 ## 问题十：/etc/ssh/ssh_config: terminating, 1 bad configuration options
 
-### 问题复现
+* 问题复现
 
 使用`ssh`登录远程服务器，遇到如下问题：
 
@@ -367,7 +367,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-### 问题解析
+* 问题解析
 
 参考：[ssh: Bad configuration option: usedns](https://www.cnblogs.com/minglee/p/11210203.html)
 

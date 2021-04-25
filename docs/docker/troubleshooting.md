@@ -42,7 +42,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 
 最新发现：是因为`Ubuntu`镜像源出错，我在`18.04`上误用了`16.04`的`ali mirror`
 
-### 问题
+* 问题描述
 
 使用`docker`镜像`zjzstu/ubuntu:18.04`，发现无法安装`git`
 
@@ -56,7 +56,7 @@ E: Unable to correct problems, you have held broken packages.
 
 缺少一系列的`git`依赖，测试多次之后成功安装`git`
 
-### Dockerfile
+* Dockerfile
 
 ```
 FROM zjzstu/ubuntu:18.04
@@ -65,7 +65,7 @@ RUN apt-get update \
 CMD git version 
 ```
 
-### 镜像
+* 镜像
 
 构建镜像
 
@@ -106,7 +106,7 @@ W: Some index files failed to download. They have been ignored, or old ones used
 root@06f6c91954e1:/# 
 ```
 
-### 发现问题
+* 发现问题
 
 测试是否是`DNS`解析出错，测试命令如下：
 
@@ -118,7 +118,7 @@ nslookup: write to '127.0.1.1': Connection refused
 
 启动镜像`busybox`，使用`nslookup`搜索`baidu.com`对应`IP`，发现没有找到`DNS`服务器
 
-### 解决
+* 解决
 
 参考[SOLVED: Docker build “Could not resolve ‘archive.ubuntu.com’” apt-get fails to install anything](https://medium.com/@faithfulanere/solved-docker-build-could-not-resolve-archive-ubuntu-com-apt-get-fails-to-install-anything-9ea4dfdcdcf2)，默认`Docker`使用`8.8.8.8`作为`DNS`服务器地址，而不是主机的`DNS`服务器地址
 
