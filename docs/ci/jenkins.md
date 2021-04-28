@@ -23,6 +23,7 @@
 * Docker
     * [在Docker中运行Jenkins](https://blog.zhujian.life/posts/202ee452.html)
     * [[Jenkins][GitLab]docker-compose实现](https://blog.zhujian.life/posts/1431c640.html)
+    * [[Jenkins]使用Docker容器配置编译环境](https://blog.zhujian.life/posts/a260b36c.html)
 
 ## 常见问题
 
