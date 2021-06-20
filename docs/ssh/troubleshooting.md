@@ -400,3 +400,11 @@ MaxStartups 30
 $ sudo systemctl restart ssh
 $ sudo systemctl restart sshd
 ```
+
+## 问题十一：packet_write_wait: Connection to xxx.xxx.xxx.xxx port 22: Broken pipe
+
+`ssh`连接一段时间后自动结束了远程会话，弹出上述信息。 参考问题三解决方案，通过定时发送心跳响应，保证客户端和服务器之间的连接
+
+## 问题十二：client_loop: send disconnect: Broken pipe
+
+和问题十一一样的现象，远程会话自动结束。参考问题三解决方案，通过定时发送心跳响应，保证客户端和服务器之间的连接
