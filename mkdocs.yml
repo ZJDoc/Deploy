@@ -167,3 +167,8 @@ nav:
         - '文件格式 - Service设置': compose/文件格式-service设置.md
         - '文件格式 - 存储设置': compose/文件格式-存储设置.md
         - '使用docker-compose还是docker run': compose/docker-compose-docker-run.md
+    - 编译工具:
+        - cmake:
+          - 引言: cmake/index.md
+          - 最小实现: cmake/minimum.md
+          - 结构优化: cmake/optimization.md
