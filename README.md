@@ -8,7 +8,7 @@
  <div align="center"><a title="" href="https://github.com/ZJDoc/Deploy"><img align="center" src="./imgs/Deploy.png"></a></div>
 
 <p align="center">
-  «Deploy»记录了远程连接/内网穿透/Web服务器/持续集成/容器/编排工具的部署和使用 
+  «Deploy»记录了远程连接/内网穿透/Web服务器/持续集成/容器/编排工具/编译工具的部署和使用 
 <br>
 <br>
   <a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square"></a>
