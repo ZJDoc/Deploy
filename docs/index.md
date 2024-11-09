@@ -9,6 +9,7 @@
 * `Web`服务器
     * `Tomcat`
     * `Nginx`
+    * `Flask`
 * 持续集成
     * `Jenkins`
 * 容器和编排工具
